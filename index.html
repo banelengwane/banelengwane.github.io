@@ -11,11 +11,19 @@
     .sthombe img{
       border-radius: 50%;
     }
-    .bgimg {
+      body, html {
+          height: 100%;
+          width: 100%;
+
+      }
+
+
+
+        .bgimg {
             /* Background image */
             background-image: url('images/landing.jpg');
             /* Full-screen */
-            height:1000px;
+            height: 100%;
             /* Center the background image */
             background-position: center;
             /* Scale and zoom in the image */
@@ -23,9 +31,19 @@
             /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
             position: relative;
             /* Add a white text color to all elements inside the .bgimg container */
+            color: gold;
+            /* Add a font */
+            font-family: "Courier New", Courier, monospace;
+            /* Set the font-size to 25 pixels */
+            font-size: 25px;
         }
     .teks h1, h4{
       color: gold;
+    }
+
+    .row{
+      margin-left: 70px;
+      margin-right: 70px;
     }
 
     </style>
