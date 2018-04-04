@@ -37,10 +37,16 @@
   .container {
     width: 85%;
     padding: 0; }
+    .project{
+      margin-top: 20px;
+    }
 }
 
 /* For devices larger than 550px */
 @media (min-width: 550px) {
+  .row{
+    display: inline-flex;
+  }
   .container {
     width: 80%; }
   .column,
