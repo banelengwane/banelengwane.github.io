@@ -9,9 +9,21 @@
     <link rel="stylesheet" href="css/skeleton.css">
     <style media="screen">
     body, html {
-        height: 100%
+        height: 100%;
 
     }
+    .row {
+      padding-top: 40px;
+      text-align: center;
+    }
+
+
+
+    .pro{
+      text-align: center;
+      width: 100%;
+    }
+
 
       .bgimg {
           /* Background image */
@@ -31,56 +43,6 @@
           /* Set the font-size to 25 pixels */
           font-size: 15px;
       }
-    /*PROJECTS*/
-    .pro{
-      padding: 70px 70px;
-      height: 100%;
-      width: 100%;
-      text-align: center;
-    }
-    /*Over lay image CSS*/
-    * {box-sizing: border-box}
-
-    /* Container needed to position the overlay. Adjust the width as needed */
-    .project {
-      position: relative;
-      width: 50%;
-      max-width: 300px;
-    }
-
-    /* Make the image to responsive */
-    .image {
-      display: block;
-      width: 100%;
-      height: auto;
-    }
-
-    /* The overlay effect - lays on top of the container and over the image */
-    .overlay {
-      position: absolute;
-      bottom: 0;
-      background: rgb(0, 0, 0);
-      background: rgba(0, 0, 0, 0.5); /* Black see-through */
-      color: #f1f1f1;
-      width: 100%;
-      transition: .5s ease;
-      opacity:0;
-      color: white;
-      font-size: 20px;
-      padding: 20px;
-      text-align: center;
-    }
-
-    /* When you mouse over the container, fade in the overlay title */
-    .project:hover .overlay {
-      opacity: 1;
-    }
-    /* Position text in the top-left corner */
-    .topleft {
-        position: absolute;
-        top: 20px;
-        left: 16px;
-    }
 
     </style>
     <script type="text/javascript">
@@ -119,17 +81,25 @@
           </div>
         </div>
       </div>
-      <div class="row pro">
-        <h1> PROJECTS</h1>
-        <div class="six columns project">
-          <img src="images/basic.png" alt="Avatar" class="image">
-          <div class="overlay"><a href="https://banelengwane.github.io/basic-webpage/" target="_blank">Basic-webpage</a></div>
-        </div>
-        <div class="six columns project">
-          <img src="images/bootcamps.png" alt="Avatar" class="image">
-          <div class="overlay"><a href="https://banelengwane.github.io/bootcamp-test/" target="_blank ">Bootcamp Tests</a></div>
+      <div class="row">
+        <div class="twelve columns pro">
+          <h1> PROJECTS</h1>
         </div>
       </div>
+    
+        <div class="row">
+          <div class="six columns dr">
+            <img src="images/basic.png" alt="Avatar" class="image" width="200" height="200">
+            <div class="overlay"><a href="https://banelengwane.github.io/basic-webpage/" target="_blank">Basic-webpage</a></div>
+          </div>
+
+          <div class="six columns dr">
+            <img src="images/bootcamps.png" alt="Avatar" class="image" width="200" height="200">
+            <div class="overlay"><a href="https://banelengwane.github.io/bootcamp-test/" target="_blank ">Bootcamp Tests</a></div>
+          </div>
+        </div>
+
+
     </div>
     <div class="footer">
       <p style="text-align:center">
