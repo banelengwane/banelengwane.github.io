@@ -43,6 +43,10 @@
     height: 100%;
   }
 
+  .middle {
+      padding-top: 50%;
+  }
+
 }
 
 /* For devices larger than 550px */
